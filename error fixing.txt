@@ -1,0 +1,6 @@
+app:compressDebugAssets failure:
+1.把build.gradle中classpath 'com.android.tools.build:gradle:4.X.X'更改为classpath 'com.android.tools.build:gradle:4.0.2'
+
+2.其次，将gradle-wrapper.properties文件中的
+distributionUrl=https://services.gradle.org/distributions/gradle-6.X.X-all.zip更改为
+distributionUrl=https://services.gradle.org/distributions/gradle-6.4.1-all.zip
